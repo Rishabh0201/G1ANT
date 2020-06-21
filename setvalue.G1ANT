@@ -1,0 +1,6 @@
+addon googledocs version 4.102.0.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+googlesheet.open 1wjt19yiWx8xkKDg4hR6g-T0f2ZwpudH9ooyi_d20CMg
+googlesheet.setvalue range I2 value 525 numeric true
+googlesheet.close

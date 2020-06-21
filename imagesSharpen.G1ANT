@@ -1,0 +1,6 @@
+addon images version 4.102.0.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+♥image1 = ♥environment⟦USERPROFILE⟧\Desktop\g1ant.png
+file.download https://g1ant.com/wp-content/uploads/2020/01/laptop.png filename ♥image1
+image.sharpen ♥environment⟦USERPROFILE⟧\DESKTOP\g1ant2.png

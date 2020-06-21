@@ -1,0 +1,7 @@
+addon images version 4.102.0.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+♥image1 = ♥environment⟦USERPROFILE⟧\Desktop\areas.png
+file.download https://sites.google.com/site/inquirymaths/home/geometry-prompts/areas/areas.png filename ♥image1
+image.findrectangles ♥image1
+dialog ♥result

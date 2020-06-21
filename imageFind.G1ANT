@@ -1,0 +1,9 @@
+addon images version 4.102.0.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+♥image1 = ♥environment⟦USERPROFILE⟧\Desktop\image.png
+file.download https://jeremykun.files.wordpress.com/2012/01/img49.png filename ♥image1
+file.copy path ♥environment⟦USERPROFILE⟧\DESKTOP\image1.png destinationpath ♥environment⟦USERPROFILE⟧\DESKTOP\image2.png
+♥image2 = ♥environment⟦USERPROFILE⟧\DESKTOP\image2.png 
+image.find image1 ♥image1 image2 ♥image2 threshold 1 relative false result ♥point
+dialog ♥point
