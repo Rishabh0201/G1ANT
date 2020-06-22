@@ -1,0 +1,7 @@
+addon msoffice version 4.103.0.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+outlook.open
+outlook.newmessage to hi@g1ant.com subject Great! body ‴Your robot rules!‴ 
+outlook.send
+outlook.close

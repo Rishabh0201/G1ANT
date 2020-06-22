@@ -1,0 +1,8 @@
+addon msoffice version 4.103.0.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+excel.open
+window ✱Excel
+keyboard one⋘RIGHT⋙two⋘RIGHT⋙three⋘RIGHT⋙
+
+excel.runvbcode ‴Range("B2").Select⊂"\r\n"⊃ActiveCell.FormulaR1C1 = "=RC[-1]*2"⊂"\r\n"⊃Range("B2").Select⊂"\r\n"⊃Selection.AutoFill Destination:=Range("B2:B6"), Type:=xlFillDefault⊂"\r\n"⊃Range("B2:B6").Select‴

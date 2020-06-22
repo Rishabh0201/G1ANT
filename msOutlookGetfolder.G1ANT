@@ -1,0 +1,11 @@
+addon msoffice version 4.103.0.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+♥outlookInboxFolder = mishrarishabh557@gmail.com\Inbox
+
+outlook.open display false
+outlook.getfolder ♥outlookInboxFolder result ♥inboxFolder errormessage ‴Cannot find folder "♥outlookInboxFolder"‴
+♥unreademails = ♥inboxFolder⟦unread⟧
+foreach ♥email in ♥unreademails
+  dialog ‴New message from ♥email⟦from⟧ with subject: "♥email⟦subject⟧"‴
+end
