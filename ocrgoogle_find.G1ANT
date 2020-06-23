@@ -1,0 +1,7 @@
+addon ocrgoogle version 4.102.0.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+ocrgoogle.login chrome apikey AIzaSyAg75J1v4f0G-5_uSHoxj609E0JH2wv630
+chrome duckduckgo.com
+ocrgoogle.find duckduckgo
+dialog ♥result
