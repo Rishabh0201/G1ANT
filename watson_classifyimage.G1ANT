@@ -1,0 +1,6 @@
+addon watson version 4.102.0.0
+addon core version 4.106.0.0
+♥apiKey = Fr0_H-ouD5RsAE3dd7CR423Fmf8GbLuKHZ9-uoWZXe16
+♥serverUri = https://gateway.watsonplatform.net/visual-recognition/api/v3/classify?version=2018-03-19
+watson.classifyimage C:\Test\image.jpg apikey ♥apiKey serveruri ♥serverUri
+dialog ♥result

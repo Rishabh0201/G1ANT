@@ -1,0 +1,7 @@
+addon watson version 4.102.0.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+♥apiKey = x_FycujnNrqsF0NN8K0SMDSFsRXdl5BsFLF3-5yZ3yg3
+♥serverUri = https://gateway-lon.watsonplatform.net/speech-to-text/api
+watson.speechtotext C:\Test\speech.mp3 apikey ♥apiKey serveruri ♥serverUri
+dialog ♥result
