@@ -1,0 +1,15 @@
+addon ui version 4.103.1.0
+addon selenium version 4.103.0.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+
+♥folder =  ♥environment⟦USERPROFILE⟧\Desktop\TEST
+
+program winrar
+delay 4 
+ui.click ‴/ui[@name='TEST (evaluation copy)']/ui[@name='Please purchase WinRAR license']/ui[@id='1']‴
+
+ui.settext ‴/ui[@name='TEST (evaluation copy)']/ui[@id='15']/ui[@id='16']/ui[@id='16']‴ text ♥folder
+keyboard ‴⋘ENTER⋙ ⋘tab⋙‴
+keyboard ‴⋘CTRL+A⋙⋘ALT+A⋙‴
+keyboard ⋘ENTER⋙

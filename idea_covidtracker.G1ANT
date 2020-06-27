@@ -1,0 +1,18 @@
+addon selenium version 4.103.0.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+dialog.ask ‴Enter the city whose no. of Covid cases you want to know (delhi,maharashtra,chandigarh)‴ result ♥data
+selenium.open chrome url https://www.mygov.in/corona-data/covid19-statewise-status
+delay 10
+if ♥data=="delhi"
+
+    selenium.gettext search //*[@id="node-287111"]/div/div[16]/div/div[2]/div[10]/div/div/div/div[2]/div[2]/div by xpath result ♥quote
+    dialog ‴Number of covid cases in delhi :‴♥quote
+else if ♥data=="maharashtra"
+    selenium.gettext search //*[@id="node-287111"]/div/div[16]/div/div[2]/div[21]/div/div/div/div[2]/div[2]/div by xpath result ♥quote
+    dialog ‴Number of covid cases in maharastra :‴♥quote
+else if ♥data=="chandigarh"
+    selenium.gettext search //*[@id="node-287111"]/div/div[16]/div/div[2]/div[6]/div/div/div/div[2]/div[2]/div by xpath result ♥quote
+    dialog ‴Number of covid cases in chandigarh :‴♥quote
+end
+selenium.close

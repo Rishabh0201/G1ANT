@@ -1,0 +1,19 @@
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+addon ui version 4.103.1.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+ui.click ‴/ui[@name='Taskbar']/ui[@id='303']/ui[@name='Action Center']‴
+keyboard ‴⋘tab 2⋙ ⋘DOWN 2⋙ ⋘RIGHT⋙ ⋘ENTER⋙‴
+dialog ‴Your bluetooth is turned ON ‴
+dialog.ask ‴You  want to turn it OFF again (yes or no)‴ result ♥result
+if ♥result=="yes"
+    ui.click ‴/ui[@name='Taskbar']/ui[@id='303']/ui[@name='Action Center']‴
+    keyboard ‴⋘tab 2⋙ ⋘DOWN 2⋙ ⋘RIGHT⋙ ⋘ENTER⋙‴
+    dialog ‴Your bluetooth is turned OFF ‴
+    
+
+else 
+    dialog ‴Enjoy‴
+end
+

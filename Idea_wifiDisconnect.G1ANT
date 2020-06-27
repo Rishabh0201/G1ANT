@@ -1,0 +1,6 @@
+addon ui version 4.103.1.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+ui.click ‴/ui[@name='Taskbar']/ui[@id='303']/descendant::ui[@id='1504']/ui[@id='{7820AE74-23E3-4229-82C1-E41CB67D5B9C}']‴ 
+delay 2
+keyboard ⋘tab 2⋙⋘enter⋙ 

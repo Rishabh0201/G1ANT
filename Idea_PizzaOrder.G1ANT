@@ -1,0 +1,44 @@
+addon selenium version 4.103.0.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+
+♥target = https://pizzaonline.dominos.co.in/?src=brand
+selenium.open chrome url ♥target
+-keyboard ‴♥credential⟦gmail:login⟧ ⋘ENTER⋙‴
+selenium.click search //*[@id="__next"]/div/div[1]/div[2]/div/div[2]/div[1]/div/div[3]/div/button/div by xpath
+delay 4
+
+dialog.ask message ‴Which pizza you want (Press 1 for Margherita or Press 2 for Farmhouse) Currently delivery avaible for these two?‴ result ♥name
+
+if ♥name=="1"
+    selenium.click search //*[@id="mn-lft"]/div[2]/div/div[1]/div/div/div[2]/div[3]/div/button by xpath
+
+    dialog.ask message ‴Do you want extra cheese (yes or no)‴ result ♥chesse
+    if ♥chesse=="yes"
+        selenium.click search //*[@id="mn-lft"]/div[2]/div/div[1]/div/div/div[2]/div[3]/div[2]/button by xpath
+    
+    else if ♥chesse=="no"
+        selenium.click search //*[@id="mn-lft"]/div[2]/div/div[1]/div/div/div[2]/div[3]/div[1]/button by xpath
+    end
+    selenium.click search //*[@id="__next"]/div/div/div[1]/div[2]/div[2]/div[2]/div[2]/div/div/div[2]/div[2]/button by xpath 
+    selenium.click search //*[@id="__next"]/div/div[1]/div[2]/div[3]/div[2]/div/div[6]/div/div/div[8]/button by xpath
+    dialog ‴Please enter the details and press save and continue‴
+    
+else if ♥name=="2"
+    selenium.click search //*[@id="mn-lft"]/div[2]/div/div[2]/div/div/div[2]/div[3]/div/button by xpath
+    dialog.ask message ‴Do you want extra cheese (yes or no)‴ result ♥chesse
+    if ♥chesse=="yes"
+        selenium.click search //*[@id="mn-lft"]/div[2]/div/div[1]/div/div/div[2]/div[3]/div[2]/button by xpath
+    
+    else if ♥chesse=="no"
+        selenium.click search //*[@id="mn-lft"]/div[2]/div/div[1]/div/div/div[2]/div[3]/div[1]/button by xpath
+    end
+    selenium.click search //*[@id="__next"]/div/div/div[1]/div[2]/div[2]/div[2]/div[2]/div/div/div[2]/div[2]/button by xpath 
+    selenium.click search //*[@id="__next"]/div/div[1]/div[2]/div[3]/div[2]/div/div[6]/div/div/div[8]/button by xpath
+    dialog ‴Please enter the details and press save and continue‴
+    
+    
+    
+    
+  
+end
