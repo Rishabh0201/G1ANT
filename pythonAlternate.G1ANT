@@ -1,0 +1,6 @@
+addon python version 4.0.0.0
+addon core version 4.106.0.0
+addon language version 4.105.0.0
+program python
+- keyboard ‴print("HELLO G1ANT")⋘ENTER⋙‴
+keyboard ‴a=2; b=3; sum=0 ⋘ENTER⋙for i in range(3):⋘ENTER⋙ sum=sum+a+b; print(sum)⋘ENTER 2⋙‴
